@@ -1,0 +1,6 @@
+pokazaæ w funkcji czasu i rozmiaru macierzy rozk³ad macierzy algorytmem genetycznym, gradientowym
+wprowadziæ 
+genetyczny:
+1. generowaæ populacjê macierzy i oceniaæ
+
+w gradientowym tak zmieniamy wartoœci macierzy, ¿eby przybli¿yæ siê do macierzy wyliczonej analitycznie

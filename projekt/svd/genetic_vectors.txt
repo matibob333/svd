@@ -1,0 +1,11 @@
+1. genetycznie wyznaczyæ najd³u¿szy (i najkrótszy) wektor u i v:
+	a) populacja wektorów jednostkowych
+	b) im wiêksza sigma tym lepszy
+	c) rozmna¿anie - œrednia arytmetyczna wa¿ona wektorów, a potem ich normalizacja
+	d) mutacja - wylosowanie innego wektora jednostkowego
+2. genetycznie wyznaczaæ wektory ortonormalne do poprzednich
+	a) losujemy populacjê wektorów jednostkowych
+	b) fitness - wektor mno¿ony skalarnie o dobrane poprzednio
+	c) fitness to uœrednienienie jak blisko by³o zera mno¿enie skalarne
+	d) rozmna¿anie - œrednia arytmetyczna wa¿ona wektorów, a potem ich normalizacja
+	e) mutacja - wylosowanie innego wektora jednostkowego
