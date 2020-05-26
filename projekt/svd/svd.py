@@ -7,6 +7,7 @@ from genetic_extended_v4 import Genetic_extended_v4
 from gradient import Gradient
 from gradient_v2 import Gradient_v2
 from gradient_v3 import Gradient_v3
+from gradient_v4 import Gradient_v4
 from specimen import Specimen
 
 M = np.zeros((4,5))
@@ -46,9 +47,9 @@ B.itemset((0,1),4)
 B.itemset((1,0),-3)
 B.itemset((1,1),-2)
 
-A = np.matrix('5,4,2;3,2,2;5,1,2')
+A = np.matrix('4,4,1,4,3;5,1,2,3,1;1,3,3,4,5;5,1,1,5,1')
 
 
-U1, S1, V1 = Gradient_v3.calculate_svd(A)
-product = U1.dot(S1).dot(V1.T)
+U1, S1, V1 = Gradient_v4.calculate_svd(M,3)
+product = np.dot(np.dot(U1,S1),V1.T)
 a = 1
